@@ -5,7 +5,7 @@ import numpy as np
 
 st.set_page_config(page_title="Recommend Appartments")
 
-location_df = pickle.load(open('datasets/location_distance.pkl','rb'))
+location_df = pickle.load(open('C:/Users/balne/OneDrive/Desktop/BVRIT MINI PROJECT/mini-project/real estate/real-estate-app/datasets/location_distance.pkl','rb'), encoding='latin1')
 
 cosine_sim1 = pickle.load(open('datasets/cosine_sim1.pkl','rb'))
 cosine_sim2 = pickle.load(open('datasets/cosine_sim2.pkl','rb'))
